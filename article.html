@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>NewsToday - Article</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body class="bg-gray-50 text-gray-900">
+    <header class="bg-white shadow sticky top-0 z-50">
+        <div class="container mx-auto flex justify-between items-center p-4">
+            <a href="index.html" class="text-3xl font-extrabold text-blue-600 hover:text-blue-700 flex items-center">
+                <i class="fas fa-newspaper mr-2"></i>NewsToday
+            </a>
+            <nav class="hidden md:flex space-x-6 text-gray-700 font-semibold">
+                <a href="index.html" class="hover:text-blue-600 transition">Home</a>
+                <a href="category.html?cat=technology" class="hover:text-blue-600 transition">Technology</a>
+                <a href="category.html?cat=business" class="hover:text-blue-600 transition">Business</a>
+                <a href="category.html?cat=health" class="hover:text-blue-600 transition">Health</a>
+                <a href="category.html?cat=entertainment" class="hover:text-blue-600 transition">Entertainment</a>
+                <a href="category.html?cat=sports" class="hover:text-blue-600 transition">Sports</a>
+            </nav>
+            <button id="mobile-menu-btn" class="md:hidden focus:outline-none">
+                <i class="fas fa-bars text-2xl text-gray-700"></i>
+            </button>
+        </div>
+        <nav id="mobile-menu" class="hidden bg-white shadow-md md:hidden">
+            <a href="index.html" class="block px-4 py-3 border-b border-gray-200 hover:bg-blue-50">Home</a>
+            <a href="category.html?cat=technology" class="block px-4 py-3 border-b border-gray-200 hover:bg-blue-50">Technology</a>
+            <a href="category.html?cat=business" class="block px-4 py-3 border-b border-gray-200 hover:bg-blue-50">Business</a>
+            <a href="category.html?cat=health" class="block px-4 py-
